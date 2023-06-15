@@ -1,0 +1,99 @@
+.nth-example {
+    background-color: #f2f2f2;
+    padding: 90px 12px 130px;
+    margin: 48px 0 96px;
+}
+
+.nth-example-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.nth-example-row__item {
+    width: 48px;
+    height: 48px;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+}
+
+/**/
+.first-child .nth-example-row__item:first-child {
+    background-color: red;
+}
+
+.last-child .nth-example-row__item:last-child {
+    background-color: red;
+}
+
+.odd .nth-example-row__item:nth-child(odd) {
+    background-color: red;
+}
+
+.even .nth-example-row__item:nth-child(even) {
+    background-color: red;
+}
+
+.nth-child_7 .nth-example-row__item:nth-child(7) {
+    background-color: red;
+}
+
+.nth-child_5n .nth-example-row__item:nth-child(5n) {
+    background-color: red;
+}
+
+.nth-child_3n\+4 .nth-example-row__item:nth-child(3n+4){
+    background-color: red;
+}
+
+.nth-child_-n\+7 .nth-example-row__item:nth-child(-n+7){
+    background-color: red;
+}
+
+.n .nth-example-row__item:nth-child(n){
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+/**/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.star * { color: blue; }
+
+h6 + strong {
+    color: red;
+}
+
+
+li.test {
+    color: #000;
+    padding: 20px;
+}
+
+.all-current-selector .nth-example-row .test {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+
+.nth-example-row > .test {
+    border: 1px solid red;
+    padding: 20px;
+}

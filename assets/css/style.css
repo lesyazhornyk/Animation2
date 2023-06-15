@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.home-page {
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 12px 0 24px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.text-purple {
+    color: purple;
+}
+
+.text-blue {
+    color: blue;
+}
+
+p {
+    color: #fff;
+}
+
+/* p {
+    color: #ff00e6 !important;
+} */
+
+.test {
+    color: yellow;
+}
+
+p.test{
+    color: #ff00e6;
+}
+
+#special-text {
+    color: red;
+}
+
+.container {
+  width: 100%;
+  max-width: 1419px;
+  padding-right: 12px;
+  padding-left: 12px; 
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,0 +1,32 @@
+table {
+    max-width: 991px;
+    width: 100%;
+    margin: 90px auto 120px;
+}
+
+caption {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    margin: 6px 0 12px;
+}
+
+th, td {
+    border: 2px solid #000;
+    padding: 30px;
+    text-align: center;
+}
+
+th {
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+
+.bg-green {
+    background-color: #00ff6279;
+}
+
+.bg-gold {
+background-color: gold;
+}

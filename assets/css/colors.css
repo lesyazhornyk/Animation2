@@ -1,0 +1,11 @@
+.page-colors .row {
+    display: flex;
+    justify-content: space-around;
+}
+.color{
+    width: 100%;
+    height: 300px;
+    max-width: 500px;
+    background-color: black;
+    margin: 0 15px;
+}
